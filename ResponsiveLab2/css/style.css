@@ -111,21 +111,6 @@ h6 {
   text-align: left;
 }
 
-a {
-  padding: 2px;
-  margin: 2px;
-  text-decoration: underline;
-}
-
-a:hover {
-  color: #AFDA39;
-  cursor: pointer;
-}
-
-a:visited {
-  color: #CABA39;
-}
-
 body {
   font-family: sans-serif;
 }
