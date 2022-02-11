@@ -133,14 +133,67 @@ body {
 .container {
   padding: 10px;
   margin: 8px;
-  border: 3px solid #09814A;
+  border: 3px solid black;
   border-radius: 7px;
 }
 
+.theme1-container {
+  padding: 10px;
+  margin: 8px;
+  border: 3px solid #09814A;
+  color: #BCB382;
+  background-color: #121619;
+  border-radius: 7px;
+}
+.theme1-container a {
+  color: #BCB382;
+}
+.theme1-container a:hover {
+  color: #AFDA39;
+}
+.theme1-container a:visited {
+  color: #CABA39;
+}
+
+.theme2-container {
+  padding: 10px;
+  margin: 8px;
+  border: 3px solid #A27035;
+  color: #B88B4A;
+  background-color: #242331;
+  border-radius: 7px;
+}
+.theme2-container a {
+  color: #B88B4A;
+}
+.theme2-container a:hover {
+  color: #DDCA7D;
+}
+.theme2-container a:visited {
+  color: #abc;
+}
+
+.theme3-container {
+  padding: 10px;
+  margin: 8px;
+  border: 3px solid #FCA311;
+  color: #fff;
+  background-color: #000;
+  border-radius: 7px;
+}
+.theme3-container a {
+  color: #fff;
+}
+.theme3-container a:hover {
+  color: #c5c5c5;
+}
+.theme3-container a:visited {
+  color: #caca;
+}
+
 code {
-  background-color: #ede9e6;
-  color: #434c7d;
   font-family: monospace;
+  text-align: left;
 }
 
 i {
@@ -172,11 +225,6 @@ i {
   display: flex;
   flex: auto;
   flex-direction: row;
-}
-
-#HeaderExplanation {
-  background-color: #121619;
-  color: #BCB382;
 }
 
 /*# sourceMappingURL=style.css.map */
