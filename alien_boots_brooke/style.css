@@ -1,0 +1,92 @@
+html {
+    background-color: white;
+}
+div {
+    color: #222222;
+}
+a {
+    color: white;
+}
+h1 {
+    font-weight: bold;
+    font-size: 50px;
+}
+header .nav {
+    background-color: #222222;
+    height: 90px;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+.img-fluid {
+    height: 80px;
+    width: 100px;
+}
+.bodySection {
+    color: #222222;
+    text-align: center;
+    margin: auto;
+}
+.signUp {
+    font-size: 20px;
+    padding: 20px;
+}
+.container {
+    text-align: center;
+}
+.card {
+    border: 1px solid #222222;
+    margin: auto;
+    width: 300px;
+}
+.card-img-top {
+    width: 300px;
+}
+.list-group-item {
+    background-color: #007CC0;
+    color: white;
+}
+.form-group {
+    width: 700px;
+    margin: auto;
+}
+#alert {
+    width: 700px;
+    margin: auto;
+    background-color: #222222;
+    color: white;
+}
+#closeBtn {
+    background-color: #007CC0;
+}
+#iconBtn {
+    background-color: #222222;
+    height: 70px;
+    width: 70px;
+    padding-bottom: 1em;
+    border: #222222;
+}
+#signUpBtn {
+    background-color: #222222;
+}
+#Rewards {
+    background-color: #007CC0;
+    border-radius: 50px;
+    text-align: center;
+    fill:white;
+}
+#Features {
+    background-color: #007CC0;
+    text-align: center;
+    border-radius: 50px;
+    margin: auto;
+}
+#priceChg{
+    float: right;
+}
+h6{
+    justify-content: center;
+}
+@media all and (max-width: 930px) {
+
+}

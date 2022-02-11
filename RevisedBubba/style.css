@@ -1,0 +1,142 @@
+body {
+    background-color: #295f8e;
+    margin: 20px;
+}
+
+p, h3{
+    margin:2px;
+}
+
+.box{
+    border: 1px solid black;
+    flex:1;
+}
+
+.round-box{
+    border: 2px solid red;
+    border-radius: 15px;
+}
+
+.flex-box{
+    display: flex;
+    flex-direction: row;
+}
+#maindiv{
+    max-width: 961px;
+    margin: auto;
+    background-color: #ccbf84;
+}
+
+#banner{
+    flex-direction: column;
+}
+
+#fishpic{
+    max-width: 100%;
+    height: auto;
+}
+
+#rightside{
+    margin-left:auto;
+    margin-right:0px;
+}
+
+#menuheadtext{
+    justify-content: center;
+    font-family: 'Kristen ITC';
+    color: red;
+}
+
+#hook{
+    margin-left: auto;
+    margin-right:0px;
+    justify-content: center;
+}
+#mottotext{
+    font-family: 'Kristen ITC';
+    color: red;
+    margin: 0px;
+}
+#motto{
+    justify-content: center;
+}
+#about{
+    text-align: center;
+}
+
+#leftfooter{
+    max-width: 93px;
+}
+#topmidbanner{
+    background-image: url('images/topbanner_repeating.png');
+    max-height:43px;
+}
+#bottommidbanner{
+    background-image: url('images/bottombanner_repeating.png');
+    max-height: 18px;
+}
+#titletext{
+    font-family: 'Kristen ITC';
+    font-size: large;
+    color: white;
+    margin:0px;
+}
+#title{
+    background-color: black;
+    vertical-align: middle;
+    align-items: center;
+}
+#repeating{
+    background-image: url('images/footer_repeating.png');
+    max-width: 100%;
+}
+
+#footer{
+    max-height: 27px;
+}
+
+#rightfooter{
+    max-width:82px;
+}
+
+#leftbanner{
+    max-width: 72px;
+    min-width: 72px;
+    max-height: 113px;
+}
+
+#rightbanner{
+    max-width: 72px;
+    min-width: 72px;
+    max-height: 113px;
+}
+
+#tablecontent{
+    flex:1;
+}
+
+#fish{
+    flex:auto;
+}
+
+#mottobox{
+    align-content: center;
+}
+
+#hook{
+    flex:.25;
+}
+
+@media all and (max-width: 800px) {}
+
+@media all and (max-width: 576px) {
+    #hook{
+        display: none;
+    }
+    #fish{
+        flex:1;
+    }
+    #menu{
+        flex:.5;
+    }
+}

@@ -1,0 +1,24 @@
+html{
+    background-color: #555;
+    color: #fff;
+}
+
+#hello{
+    border: 10px solid #fff;
+    margin: 50px auto;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+#bold{
+    color: #ff0;
+    border: 5px solid #ff0;
+    padding: 5px;
+}
+
+li{
+    display: inline;
+    margin: 5px 10px;
+    font-size: .25em;
+}

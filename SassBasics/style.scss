@@ -1,0 +1,18 @@
+@use 'additional.scss';
+$primary_color: #623;
+$secondary_color: #a73;
+
+html {
+    background-color: $primary_color;
+    color: $secondary_color;
+}
+
+body {
+    width: 80%;
+    margin: 20px auto;
+    background-color: darken($primary_color, 10%);
+}
+
+div {
+    background-color: lighten($primary_color, 10%);
+}

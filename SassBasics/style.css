@@ -1,0 +1,20 @@
+p {
+  font-size: 1.4rem;
+}
+
+html {
+  background-color: #623;
+  color: #a73;
+}
+
+body {
+  width: 80%;
+  margin: 20px auto;
+  background-color: #401520;
+}
+
+div {
+  background-color: #8c2f46;
+}
+
+/*# sourceMappingURL=style.css.map */
