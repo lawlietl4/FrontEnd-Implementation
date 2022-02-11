@@ -2,7 +2,7 @@
     "name": "nroberson-sasslab1",
     "description": "My first Sass Lab",
     "repository": {
-        "url": "https://github.com/lawlietl4/front-endImplementation/sassLab2"
+        "url": "https://github.com/lawlietl4/FrontEnd-Implementation"
     },
     "scripts": {
         "start": ".\\watch.bat"
