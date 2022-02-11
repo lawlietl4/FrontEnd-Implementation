@@ -127,8 +127,6 @@ a:visited {
 }
 
 body {
-  background-color: #121619;
-  color: #BCB382;
   font-family: sans-serif;
 }
 
@@ -136,7 +134,7 @@ body {
   padding: 10px;
   margin: 8px;
   border: 3px solid #09814A;
-  border-radius: 3px;
+  border-radius: 7px;
 }
 
 code {
@@ -168,6 +166,17 @@ i {
 .table > tfoot > tr > th,
 .table > tfoot > tr > td {
   padding: 10px;
+}
+
+#mainNavigation {
+  display: flex;
+  flex: auto;
+  flex-direction: row;
+}
+
+#HeaderExplanation {
+  background-color: #121619;
+  color: #BCB382;
 }
 
 /*# sourceMappingURL=style.css.map */

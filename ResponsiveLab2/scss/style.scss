@@ -27,8 +27,6 @@ $theme3-highlight-color: #c5c5c5;
 }
 
 body {
-    background-color: $theme1-background-color;
-    color: $theme1-text-color;
     font-family: sans-serif;
 }
 
@@ -38,7 +36,7 @@ body {
     // padding: 10px;
     // margin: 8px;
     // border: 3px solid $theme1-accent-color;
-    border-radius: 3px;
+    border-radius: 7px;
 }
 
 code{
@@ -76,4 +74,13 @@ i{
             }
         }
     }
+}
+#mainNavigation{
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+}
+#HeaderExplanation{
+    background-color: $theme1-background-color;
+    color: $theme1-text-color;
 }
