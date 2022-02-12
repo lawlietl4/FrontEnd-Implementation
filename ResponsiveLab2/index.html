@@ -13,14 +13,14 @@
     <div class="container">
         <nav id="mainNavigation">
             <ul>
-                <li><a href="#HeaderExplanation">Headers</a></li>
+                <li><a href="#HeaderExplanation" class="btn">Headers</a></li>
             </ul>
         </nav>
     </div>
     <div id="HeaderExplanation" class="container">
         <h1>Header Tags</h1>
         <p>For the header tags I made them somewhat resemble the original values for the header tags before a CSS reset
-            and added a small amount of padding around the tags themselves
+            and added a small amount of padding around the tags themselves.
         </p>
         <div class='container'>
             <h1>I am an h1</h1>
@@ -35,21 +35,26 @@
             <blockquote>
                 <pre>
                     <!-- <code> -->
-                        < body >
-                            < h1 >I am an h1< /h1 >
-                            < h2 >I am an h2< /h2 >
-                            < h3 >I am an h3< /h3 >
-                            < h4 >I am an h4< /h4 >
-                            < h5 >I am an h5< /h5 >
-                            < h6 >I am an h6< /h6 >
-                        < /body >
+&lt;h1>I am an h1&lt;/h1>
+&lt;h2>I am an h2&lt;/h2>
+&lt;h3>I am an h3&lt;/h3>
+&lt;h4>I am an h4&lt;/h4>
+&lt;h5>I am an h5&lt;/h5>
+&lt;h6>I am an h6&lt;/h6>
                     <!-- </code> -->
                 </pre>
             </blockquote>
         </div>
     </div>
-    <div id="tables">
-        <div class='container'>
+    <div class="container">
+        <div id="tables">
+            <h1>Tables</h1>
+            <p>For the tables I made the SCSS handle all of the usage cases and will apropriately style the
+                table
+                based on the theme colors if used in conjunction with the themex-container class while also
+                being
+                responsive to the amount of size the parent div gives.</p>
+
             <table class='table'>
                 <caption>Head of Table</caption>
                 <thead>
@@ -67,15 +72,63 @@
                     </tr>
                 </tbody>
             </table>
+
+            <h1>Code Example:</h1>
+            <div class="container">
+                <blockquote>
+                    <pre>
+                        <code>
+&lt;table class='table'>
+&lt;caption>Head of Table&lt;/caption>
+    &lt;thead>
+        &lt;tr>
+            &lt;th scope='column'>Name&lt;/th>
+            &lt;th scope='column'>Features&lt;/th>
+            &lt;th scope='column'>Price&lt;/th>
+        &lt;/tr>
+    &lt;/thead>
+    &lt;tbody>
+        &lt;tr>
+            &lt;th scope='row'>Ipsit&lt;/th>
+            &lt;td>dolor, sit, amet, consectetur&lt;/td>
+            &lt;td>$98.07&lt;/td>
+        &lt;/tr>
+    &lt;/tbody>
+&lt;/table>
+                    </code>
+                    </pre>
+                </blockquote>
+            </div>
         </div>
     </div>
-    <div class="container">
-        <div class="login">
-            <input type="email" name="email" placeholder="Email" />
-            <input type="password" name="password" placeholder="Password" />
-            <a>I forgot my password</a>
-            <button>Login</button>
+    <div class="container" id="Forms">
+        <h1>Forms</h1>
+        <p>For the forms in my framework I tried to bring back the old styling while also attempting to add something
+            new and making it more styled to my liking</p>
+        <div class="container">
+            <div class="login">
+                <input type="email" name="email" placeholder="Email" />
+                <input type="password" name="password" placeholder="Password" />
+                <a>I forgot my password</a>
+                <button class="btn">Login</button>
+            </div>
         </div>
+        <div class="container">
+            <h1>Code Example:</h1>
+            <blockquote>
+                <pre>
+                    <code>
+&lt;div class="login">
+    &lt;input type="email" name="email" placeholder="Email" />
+    &lt;input type="password" name="password" placeholder="Password" />
+    &lt;a>I forgot my password&lt;/a>
+    &lt;button>Login&lt;/button>
+&lt;/div>
+                    </code>
+                </pre>
+            </blockquote>
+        </div>
+
     </div>
     <div class="container">
         <code>

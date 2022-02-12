@@ -34,6 +34,7 @@ body {
     @include paddingWithMargin(10px, 8px);
     @include borderMaker(black, 3px);
     border-radius: 7px;
+    word-wrap: break-word;
 }
 .theme1-container {
     @include paddingWithMargin(10px, 8px);
@@ -132,4 +133,13 @@ i{
     display: flex;
     flex: auto;
     flex-direction: row;
+}
+.btn{
+    background-color: lightgrey;
+    border-radius: 4px;
+    color: black;
+    text-decoration: none;
+}
+code{
+    overflow-wrap: break-word;
 }
