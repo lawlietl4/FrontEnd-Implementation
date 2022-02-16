@@ -1,0 +1,17 @@
+{
+    "name": "nroberson-sasslab1",
+    "description": "My first Sass Lab",
+    "repository": {
+        "url": "https://github.com/lawlietl4/FrontEnd-Implementation"
+    },
+    "scripts": {
+        "start": ".\\watch.bat"
+    },
+    "version": "1.0.0",
+    "keywords": [
+        "sass",
+        "responsive"
+    ],
+    "author": "lawlietl4",
+    "license": "ISC"
+}
