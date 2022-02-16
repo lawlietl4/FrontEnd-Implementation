@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start":".\\watch.bat",
+    "update": ".\\update.bat",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
