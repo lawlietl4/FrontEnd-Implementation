@@ -1,0 +1,8 @@
+{
+    "menu_items":[
+        {
+            "name": "Home",
+            "path": "index.html"
+        }
+    ]
+}
