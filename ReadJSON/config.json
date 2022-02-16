@@ -1,0 +1,24 @@
+{
+    "menu_items":[
+        {
+            "name": "Home",
+            "path": "index.html"
+        },
+        {
+            "name": "About Us",
+            "path": "about.html"
+        },
+        {
+            "name": "Whatever",
+            "path": "whatever.html"
+        },
+        {
+            "name": "Potato",
+            "path": "potato.html"
+        },
+        {
+            "name": "Contact",
+            "path":"contact.html"
+        }
+    ]
+}
