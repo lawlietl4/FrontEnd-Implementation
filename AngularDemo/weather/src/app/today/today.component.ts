@@ -18,8 +18,9 @@ export class TodayComponent implements OnInit {
         this.weatherData = res;
         // console.log(res);
         this.date = this.weatherData.current.dt;
-        var parsedDate = new Date(this.date);
+        var parsedDate = new Date(this.date *1000);
         console.log(parsedDate);
+        this.date=parsedDate;
       }
     )
   }
