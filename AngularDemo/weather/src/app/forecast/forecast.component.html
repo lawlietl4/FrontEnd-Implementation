@@ -1,1 +1,19 @@
-<p>forecast works!</p>
+<div>
+  <h2>Your 7 day forecast</h2>
+  <div *ngFor="let return of returns">
+    <div id="day">
+      <h3>{{return.date}}</h3>
+      <div id="Temperature">
+        <p>Expected Temperature during the morning: {{return.weather_morn}}&#176;F</p>
+        <p>Expected Temperature during the day: {{return.weather_day}}&#176;F</p>
+        <p>Expected Temperature during the evening: {{return.weather_eve}}&#176;F</p>
+        <p>Expected Temperature during the night: {{return.weather_night}}&#176;F</p>
+      </div>
+      <div id="winds">
+        <p>Expected wind speeds: {{return.wind_speed}} MPH</p>
+        <p>Expected wind gusts up to: {{return.wind_gust}} MPH</p>
+        <p>Expected wind direction: {{return.wind_dir}}&#176;</p>
+      </div>
+    </div>
+  </div>
+</div>
