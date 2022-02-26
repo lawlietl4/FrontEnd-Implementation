@@ -1,0 +1,15 @@
+#day{
+    border: 3px solid #23afd1;
+    border-radius: 7px;
+    padding: 5px;
+}
+#Temperature{
+    padding: 5px;
+    border: 3px solid orange;
+    border-radius: 7px;
+}
+#winds{
+    padding: 5px;
+    border: 3px solid green;
+    border-radius: 7px;
+}
