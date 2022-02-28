@@ -1,11 +1,13 @@
 <div id="Today">
   <h2>Weather of Today</h2>
   <div>
-    <h3>Today's date: {{ date }}</h3>
-    <p>Today's sunrise: {{ sunrise }}</p>
-    <p>Today's sunset: {{ sunset }}</p>
-    <p>Weather Description: {{ description }}</p>
-    <p>Feels Like: {{feelsLike}}&#176;F</p>
+    <div id="Temps">
+      <h3>Today's date: {{ date }}</h3>
+      <p>Today's sunrise: {{ sunrise }}</p>
+      <p>Today's sunset: {{ sunset }}</p>
+      <p>Weather Description: {{ description }}</p>
+      <p>Feels Like: {{feelsLike}}&#176;F</p>
+    </div>
     <div id="Winds">
       <h5>Winds:</h5>
       <pre><p>{{ wind }}</p></pre>
