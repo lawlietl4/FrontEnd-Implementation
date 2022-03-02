@@ -1,11 +1,16 @@
 #Today{
-    padding-left: 15px;
+    padding: 5px;
     border: 3px solid #23afd1;
     border-radius: 7px;
     
 }
 #Winds{
     padding-left: 15px;
-    border: 3px solid #cb6;
+    border: 3px solid #cda;
+    border-radius: 7px;
+}
+#Temps{
+    padding: 5px;
+    border: 3px solid green;
     border-radius: 7px;
 }
