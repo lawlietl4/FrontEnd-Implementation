@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PicOfTheDayComponent } from './pic-of-the-day.component';
+import { PictureOfTheDayComponent } from './picture-of-the-day.component';
 
-describe('PicOfTheDayComponent', () => {
-  let component: PicOfTheDayComponent;
-  let fixture: ComponentFixture<PicOfTheDayComponent>;
+describe('PictureOfTheDayComponent', () => {
+  let component: PictureOfTheDayComponent;
+  let fixture: ComponentFixture<PictureOfTheDayComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ PicOfTheDayComponent ]
+      declarations: [ PictureOfTheDayComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PicOfTheDayComponent);
+    fixture = TestBed.createComponent(PictureOfTheDayComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

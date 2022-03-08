@@ -3,12 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { PicOfTheDayComponent } from './pic-of-the-day/pic-of-the-day.component';
+import { PictureOfTheDayComponent } from './picture-of-the-day/picture-of-the-day.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PicOfTheDayComponent
+    PictureOfTheDayComponent
   ],
   imports: [
     BrowserModule,
